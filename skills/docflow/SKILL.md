@@ -1,13 +1,13 @@
 ---
 name: docflow
-description: Workspace documentation governance for OpenClaw projects. Use when organizing docs/notes, separating README vs docs responsibilities, deciding what belongs in root docs vs per-project docs vs archive, reducing duplication, moving outdated notes, or creating navigable documentation structure.
+description: "Workspace documentation governance for OpenClaw projects. Use when organizing docs/notes, separating README vs docs responsibilities, deciding what belongs in root docs vs per-project docs vs archive, reducing duplication, moving outdated notes, or creating navigable documentation structure."
 allowed-tools:
   - Read
   - Write
   - Edit
   - Glob
   - Grep
-when_to_use: Use when the user asks to organize documentation, split README vs docs, clean duplicated notes, archive outdated material, or make project docs easier to navigate. Example triggers: "整理文档", "README 太乱了", "这些文档该怎么分层", "把旧文档归档", "帮我理一下 docs".
+when_to_use: "Use when the user asks to organize documentation, split README vs docs, clean duplicated notes, archive outdated material, or make project docs easier to navigate. Example triggers: '整理文档', 'README 太乱了', '这些文档该怎么分层', '把旧文档归档', '帮我理一下 docs'."
 ---
 
 # docflow

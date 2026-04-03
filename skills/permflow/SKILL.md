@@ -1,9 +1,9 @@
 ---
 name: permflow
-description: Permission and risk-confirmation governance for OpenClaw actions. Use when deciding whether to ask first, how to present risky changes, whether an operation affects files, configs, services, remote hosts, scheduled tasks, public exposure, or external messaging, and how to describe rollback points before acting.
+description: "Permission and risk-confirmation governance for OpenClaw actions. Use when deciding whether to ask first, how to present risky changes, whether an operation affects files, configs, services, remote hosts, scheduled tasks, public exposure, or external messaging, and how to describe rollback points before acting."
 allowed-tools:
   - Read
-when_to_use: Use when the next action may be risky, user-visible, destructive, external, remote, or hard to roll back, and the assistant should decide whether to ask first and how to frame approval. Example triggers: "要不要先确认", "这步风险大吗", "要不要重启服务", "要不要先问我", "这个能直接改吗".
+when_to_use: "Use when the next action may be risky, user-visible, destructive, external, remote, or hard to roll back, and the assistant should decide whether to ask first and how to frame approval. Example triggers: '要不要先确认', '这步风险大吗', '要不要重启服务', '要不要先问我', '这个能直接改吗'."
 argument-hint: "[low|medium|high] [action]"
 arguments:
   - risk_level

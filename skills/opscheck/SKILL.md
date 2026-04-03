@@ -1,10 +1,10 @@
 ---
 name: opscheck
-description: Operational health-check and server inspection workflow for OpenClaw environments. Use when checking machine health, diagnosing server state, reviewing ports/processes/services/containers, checking OpenClaw status, or producing a concise operational summary with risks and next steps.
+description: "Operational health-check and server inspection workflow for OpenClaw environments. Use when checking machine health, diagnosing server state, reviewing ports/processes/services/containers, checking OpenClaw status, or producing a concise operational summary with risks and next steps."
 allowed-tools:
   - Read
   - exec
-when_to_use: Use when inspecting machine health, server state, resource pressure, OpenClaw runtime status, service listeners, or deployment health, especially when the user wants a concise ops-style summary. Example triggers: "巡检一下", "看下服务器状态", "查下资源占用", "openclaw 正常吗", "帮我体检一下机器".
+when_to_use: "Use when inspecting machine health, server state, resource pressure, OpenClaw runtime status, service listeners, or deployment health, especially when the user wants a concise ops-style summary. Example triggers: '巡检一下', '看下服务器状态', '查下资源占用', 'openclaw 正常吗', '帮我体检一下机器'."
 argument-hint: "[quick|full] [target]"
 arguments:
   - level

@@ -1,13 +1,13 @@
 ---
 name: handoff
-description: Session handoff and recovery governance for OpenClaw. Use when preparing to compact context, start a new session, pause work, end a long task, leave a recovery point, or hand ongoing work to a future session. Helps capture current goal, done state, next step, memory updates, and minimum restart context.
+description: "Session handoff and recovery governance for OpenClaw. Use when preparing to compact context, start a new session, pause work, end a long task, leave a recovery point, or hand ongoing work to a future session. Helps capture current goal, done state, next step, memory updates, and minimum restart context."
 allowed-tools:
   - Read
   - Write
   - Edit
   - memory_search
   - memory_get
-when_to_use: Use when work is about to pause, a long task needs a restart point, context is getting too long, or a clean cross-session handoff is needed. Example triggers: "先收个尾", "帮我留个停点", "准备 /new", "压缩前整理一下", "下次继续".
+when_to_use: "Use when work is about to pause, a long task needs a restart point, context is getting too long, or a clean cross-session handoff is needed. Example triggers: '先收个尾', '帮我留个停点', '准备 /new', '压缩前整理一下', '下次继续'."
 argument-hint: "[quick|full] [scope]"
 arguments:
   - level

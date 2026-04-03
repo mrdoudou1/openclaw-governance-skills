@@ -1,6 +1,6 @@
 ---
 name: toolflow
-description: Tool selection governance for OpenClaw. Use when choosing between memory search, file reads, web fetch/search, browser automation, background tasks, subagents, or direct edits; when deciding whether to do a light read first; and when a task would benefit from a clear tool route instead of ad-hoc tool usage.
+description: "Tool selection governance for OpenClaw. Use when choosing between memory search, file reads, web fetch/search, browser automation, background tasks, subagents, or direct edits; when deciding whether to do a light read first; and when a task would benefit from a clear tool route instead of ad-hoc tool usage."
 allowed-tools:
   - Read
   - Glob
@@ -10,7 +10,7 @@ allowed-tools:
   - web_fetch
   - web_search
   - sessions_spawn
-when_to_use: Use when a task has multiple viable tool routes and the assistant should choose the lightest effective one instead of improvising. Example triggers: "先别开重工具", "怎么选工具更合适", "这个要不要开子会话", "先搜还是先读文件", "给我走最轻路线".
+when_to_use: "Use when a task has multiple viable tool routes and the assistant should choose the lightest effective one instead of improvising. Example triggers: '先别开重工具', '怎么选工具更合适', '这个要不要开子会话', '先搜还是先读文件', '给我走最轻路线'."
 argument-hint: "[lightest|balanced|power] [task]"
 arguments:
   - route

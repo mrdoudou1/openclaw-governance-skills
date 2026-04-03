@@ -1,9 +1,9 @@
 ---
 name: taskview
-description: Multi-step task framing and progress reporting for OpenClaw work. Use when a request involves multiple phases, mixed tools, background tasks, or ongoing execution that benefits from clear status updates such as current goal, in-progress work, completed work, and next steps.
+description: "Multi-step task framing and progress reporting for OpenClaw work. Use when a request involves multiple phases, mixed tools, background tasks, or ongoing execution that benefits from clear status updates such as current goal, in-progress work, completed work, and next steps."
 allowed-tools:
   - Read
-when_to_use: Use when work naturally spans multiple steps, tools, or phases and the assistant should keep a visible task state with current goal, progress, completed work, and next steps. Example triggers: "分步来", "这个任务有点多", "给我同步下进度", "你现在做到哪了", "一步步处理".
+when_to_use: "Use when work naturally spans multiple steps, tools, or phases and the assistant should keep a visible task state with current goal, progress, completed work, and next steps. Example triggers: '分步来', '这个任务有点多', '给我同步下进度', '你现在做到哪了', '一步步处理'."
 argument-hint: "[simple|detailed] [task]"
 arguments:
   - detail_level

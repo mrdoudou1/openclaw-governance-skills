@@ -1,6 +1,6 @@
 ---
 name: memflow
-description: Govern memory placement and memory hygiene for OpenClaw workspace sessions. Use when deciding whether information belongs in daily notes, MEMORY.md, topical docs, transcripts, archive, or nowhere; when compressing old notes; when current facts conflict with older memory; or when the user asks to remember, organize, promote, deduplicate, or clean memory.
+description: "Govern memory placement and memory hygiene for OpenClaw workspace sessions. Use when deciding whether information belongs in daily notes, MEMORY.md, topical docs, transcripts, archive, or nowhere; when compressing old notes; when current facts conflict with older memory; or when the user asks to remember, organize, promote, deduplicate, or clean memory."
 allowed-tools:
   - Read
   - Write
@@ -9,7 +9,7 @@ allowed-tools:
   - Grep
   - memory_search
   - memory_get
-when_to_use: Use when the request is about remembering something, organizing memory, promoting or deduplicating notes, deciding whether something belongs in daily memory vs long-term memory vs a topical file, or resolving conflicts between older notes and newer verified facts. Example triggers: "remember this", "整理一下记忆", "别写进 MEMORY.md", "把旧记忆压缩一下", "这个该记到哪里".
+when_to_use: "Use when the request is about remembering something, organizing memory, promoting or deduplicating notes, deciding whether something belongs in daily memory vs long-term memory vs a topical file, or resolving conflicts between older notes and newer verified facts. Example triggers: 'remember this', '整理一下记忆', '别写进 MEMORY.md', '把旧记忆压缩一下', '这个该记到哪里'."
 argument-hint: "[store|promote|compress|dedupe|resolve] [scope]"
 arguments:
   - action

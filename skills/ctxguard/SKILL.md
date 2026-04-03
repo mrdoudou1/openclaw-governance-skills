@@ -1,6 +1,6 @@
 ---
 name: ctxguard
-description: Context hygiene and tool-heavy turn governance for OpenClaw. Use when a task is long-running, involves many tool calls, large files, multiple documents, or risks context bloat; when deciding memory_search vs memory_get; when deciding whether to read a whole file or sample; when preparing to compact/summarize context; or when you need to re-check the latest user message before finishing.
+description: "Context hygiene and tool-heavy turn governance for OpenClaw. Use when a task is long-running, involves many tool calls, large files, multiple documents, or risks context bloat; when deciding memory_search vs memory_get; when deciding whether to read a whole file or sample; when preparing to compact/summarize context; or when you need to re-check the latest user message before finishing."
 allowed-tools:
   - Read
   - Glob
@@ -9,7 +9,7 @@ allowed-tools:
   - web_search
   - memory_search
   - memory_get
-when_to_use: Use when a task risks context bloat, involves large files or many tools, requires careful retrieval strategy, or needs an end-of-turn re-check of the latest user request. Example triggers: "别读太多", "先别全量看", "这个排查太长了", "帮我控一下上下文", "大文件先挑重点看".
+when_to_use: "Use when a task risks context bloat, involves large files or many tools, requires careful retrieval strategy, or needs an end-of-turn re-check of the latest user request. Example triggers: '别读太多', '先别全量看', '这个排查太长了', '帮我控一下上下文', '大文件先挑重点看'."
 argument-hint: "[light|normal|strict] [scope]"
 arguments:
   - mode

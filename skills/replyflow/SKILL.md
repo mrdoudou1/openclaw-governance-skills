@@ -1,9 +1,9 @@
 ---
 name: replyflow
-description: Response-structure guidance for OpenClaw replies. Use when deciding how to answer technical tasks, ops summaries, long multi-step work, or conversational check-ins; when choosing between concise status vs detailed explanation; and when the reply should clearly separate conclusion, findings, changes, and next steps.
+description: "Response-structure guidance for OpenClaw replies. Use when deciding how to answer technical tasks, ops summaries, long multi-step work, or conversational check-ins; when choosing between concise status vs detailed explanation; and when the reply should clearly separate conclusion, findings, changes, and next steps."
 allowed-tools:
   - Read
-when_to_use: Use when the main problem is shaping the answer clearly: technical conclusions, ops summaries, long-running task updates, or mixed conversational-plus-task replies. Example triggers: "你直接告诉我结论", "给我一个简短版", "这个怎么汇报更清楚", "先说结果", "按步骤回我".
+when_to_use: "Use when the main problem is shaping the answer clearly: technical conclusions, ops summaries, long-running task updates, or mixed conversational-plus-task replies. Example triggers: '你直接告诉我结论', '给我一个简短版', '这个怎么汇报更清楚', '先说结果', '按步骤回我'."
 argument-hint: "[short|normal|detailed] [shape]"
 arguments:
   - verbosity
